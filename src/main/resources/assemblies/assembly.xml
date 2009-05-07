@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+  <id>configuration</id>
+  <formats>
+    <format>jar</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <fileSets>
+    <fileSet>
+      <outputDirectory>silvertrace</outputDirectory>
+      <directory>src/main/config/silvertrace</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet>
+      <outputDirectory>initialize</outputDirectory>
+      <directory>src/main/config/initialize</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet>
+      <outputDirectory>properties</outputDirectory>
+      <directory>src/main/config/properties</directory>
+      <includes>
+        <include>**/*.properties</include>
+      </includes>
+    </fileSet>
+    <fileSet>
+      <outputDirectory>xmlcomponents</outputDirectory>
+      <directory>src/main/config/xmlcomponents</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
+    <fileSet>
+      <outputDirectory>dbRepository</outputDirectory>
+      <directory>src/main/config/dbRepository</directory>
+      <includes>
+        <include>**/*.xml</include>
+        <include>**/*.sql</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</assembly>
