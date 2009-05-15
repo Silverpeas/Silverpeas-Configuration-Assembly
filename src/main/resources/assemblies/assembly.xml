@@ -42,5 +42,19 @@
         <include>**/*.sql</include>
       </includes>
     </fileSet>
+    <fileSet>
+      <outputDirectory>resources</outputDirectory>
+      <directory>src/main/config/resources</directory>
+      <includes>
+        <include>**/*.*</include>
+      </includes>
+    </fileSet>
+     <fileSet>
+      <outputDirectory>xmlspacetemplates</outputDirectory>
+      <directory>src/main/config/xmlspacetemplates</directory>
+      <includes>
+        <include>**/*.xml</include>
+      </includes>
+    </fileSet>
   </fileSets>
 </assembly>
