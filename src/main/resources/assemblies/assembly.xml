@@ -82,5 +82,13 @@
       </includes>
       <filtered>false</filtered>
     </fileSet>
+    <fileSet>
+      <outputDirectory>data/website</outputDirectory>
+      <directory>src/main/config/website</directory>
+      <includes>
+        <include>**/*.*</include>
+      </includes>
+      <filtered>false</filtered>
+    </fileSet>
   </fileSets>
 </assembly>
