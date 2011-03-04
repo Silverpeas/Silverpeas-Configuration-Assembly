@@ -12,13 +12,13 @@
       <id>silverpeas</id>
       <name>Repository Silverpeas</name>
       <layout>default</layout>
-      <url>http://repository.silverpeas.org/nexus/content/repositories/releases/</url>
+      <url>http://www.silverpeas.org/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>silverpeas-snapshots</id>
       <name>Snapshots Repository Silverpeas</name>
       <layout>default</layout>
-      <url>http://repository.silverpeas.org/nexus/content/repositories/snapshots/</url>
+      <url>http://www.silverpeas.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
@@ -26,13 +26,13 @@
     <license>
       <name>GNU Affero General Public License with FLOSS Exception</name>
       <distribution>repo</distribution>
-      <url>http://repository.silverpeas.org/legal/gnu_affero.html</url>
+      <url>http://www.silverpeas.org/legal/gnu_affero.html</url>
     </license>
   </licenses>
 
   <scm>
-    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-configuration/trunk</connection>
-    <developerConnection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/assembly-configuration/trunk</developerConnection>
-    <url>https://repository.silverpeas.org/svn/silverpeas/assembly-configuration/trunk/</url>
+    <connection>scm:git:git@github.com:Silverpeas/Silverpeas-Assembly-Configuration.git</connection>
+    <developerConnection>scm:git:git@github.com:Silverpeas/Silverpeas-Assembly-Configuration.git</developerConnection>
+    <url>https://github.com/Silverpeas/Silverpeas-Assembly-Configuration</url>
   </scm>
 </project>
