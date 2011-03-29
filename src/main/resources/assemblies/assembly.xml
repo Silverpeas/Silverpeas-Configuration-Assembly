@@ -75,16 +75,16 @@
       <filtered>true</filtered>
     </fileSet>
     <fileSet>
-      <outputDirectory>data/weblib</outputDirectory>
-      <directory>src/main/config/weblib</directory>
+      <outputDirectory>data/web/weblib.war</outputDirectory>
+      <directory>src/main/config/web/weblib.war</directory>
       <includes>
         <include>**/*.*</include>
       </includes>
       <filtered>false</filtered>
     </fileSet>
     <fileSet>
-      <outputDirectory>data/website</outputDirectory>
-      <directory>src/main/config/website</directory>
+      <outputDirectory>data/web/website.war</outputDirectory>
+      <directory>src/main/config/web/website.war</directory>
       <includes>
         <include>**/*.*</include>
       </includes>
