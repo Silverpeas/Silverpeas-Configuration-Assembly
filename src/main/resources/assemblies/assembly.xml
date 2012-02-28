@@ -63,6 +63,8 @@
       <directory>src/main/config/data</directory>
       <includes>
         <include>**/*.xml</include>
+        <include>**/*.html</include>
+        <include>**/*.htm</include>
         <include>**/*.war</include>
         <include>**/*.odt</include>
       </includes>
