@@ -37,11 +37,10 @@
       </includes>
     </fileSet>
     <fileSet>
-      <outputDirectory>dbRepository</outputDirectory>
-      <directory>src/main/config/dbRepository</directory>
+      <outputDirectory>migrations</outputDirectory>
+      <directory>src/main/config/migrations</directory>
       <includes>
-        <include>**/*.xml</include>
-        <include>**/*.sql</include>
+        <include>**/*</include>
       </includes>
     </fileSet>
     <fileSet>
@@ -65,6 +64,7 @@
         <include>**/*.xml</include>
         <include>**/*.war</include>
         <include>**/*.odt</include>
+        <include>**/*.txt</include>
       </includes>
     </fileSet>
     <fileSet>
